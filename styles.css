@@ -1,0 +1,39 @@
+
+#logo img {
+	width: 310px;
+	max-width: none;
+}
+
+#footer-in > .row {
+	padding-bottom: 20px;
+}
+
+#footer-in h3 a {
+	color: #000 !important;
+}
+
+.footer-row-element h4:before {
+	border-bottom: 3px solid transparent;
+	border-left: 3px solid #e74c3c;
+	border-top: 3px solid transparent;
+	content: '';
+	height: 0;
+	width: 0;
+	position: absolute;
+	left: 0;
+	top: 0.4rem;
+}
+
+.footer-row-element h4 {
+	text-transform: none;
+	position: relative;
+	padding-left: 10px;
+}
+
+.footer-row-element time {
+	display: none !important;
+}
+
+.footer-row-element ul li:after {
+	border-left: none !important;
+}
